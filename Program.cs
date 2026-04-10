@@ -1,6 +1,13 @@
 ﻿using System.Security.Cryptography.X509Certificates;
 
+ImageProcessor imageprocessor = new ImageProcessor();
 
+imageprocessor.Resize(-20);
+imageprocessor.Resize(80);
+imageprocessor.Resize(100);
+imageprocessor.Resize(200);
+imageprocessor.Resize(400, 600);
+imageprocessor.Resize("A4");
 
 class ImageProcessor
 {
@@ -18,7 +25,7 @@ class ImageProcessor
         {
             Console.WriteLine($"Membesarkan gambar sebesar {persen}%");
         }
-        else
+        else 
         {
             Console.WriteLine("Ukuran tetap! (100%) Tidak adak perubahan");
         }
