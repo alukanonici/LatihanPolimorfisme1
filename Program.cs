@@ -6,7 +6,7 @@ imageprocessor.Resize(-20);
 imageprocessor.Resize(80);
 imageprocessor.Resize(100);
 imageprocessor.Resize(200);
-imageprocessor.Resize(400, 600);
+imageprocessor.Resize(600, 800);
 imageprocessor.Resize("A4");
 
 class ImageProcessor
